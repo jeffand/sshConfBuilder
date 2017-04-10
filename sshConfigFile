@@ -1,0 +1,4 @@
+Host {{ host }}-{{ datacenter }}
+     HostName {{ fqdn_hostname }}
+     ServerAliveInterval 120
+     User svcops

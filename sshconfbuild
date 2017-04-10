@@ -3,9 +3,9 @@ import os
 import jinja2
 
 lsFolders = [
-    '/Users/jeffa/GitHub/sshconfbuilder/sjc.foo.com',
-    '/Users/jeffa/GitHub/sshconfbuilder/sjc.foo.com',
-    '/Users/jeffa/GitHub/sshconfbuilder/sjc.foo.com'
+    '~/GitHub/sshconfbuilder/sjc.foo.com',
+    '~/GitHub/sshconfbuilder/sjc.foo.com',
+    '~/GitHub/sshconfbuilder/sjc.foo.com'
 ]
 
 templateVars = {}

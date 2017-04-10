@@ -1,0 +1,120 @@
+Host aaa-sjc
+     HostName aaa.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host bbb-sjc
+     HostName bbb.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host ccc-sjc
+     HostName ccc.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host ddd-sjc
+     HostName ddd.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host eee-sjc
+     HostName eee.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host fff-sjc
+     HostName fff.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host ggg-sjc
+     HostName ggg.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host hhh-sjc
+     HostName hhh.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host iii-sjc
+     HostName iii.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host jjj-sjc
+     HostName jjj.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host aaa-sjc
+     HostName aaa.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host bbb-sjc
+     HostName bbb.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host ccc-sjc
+     HostName ccc.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host ddd-sjc
+     HostName ddd.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host eee-sjc
+     HostName eee.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host fff-sjc
+     HostName fff.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host ggg-sjc
+     HostName ggg.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host hhh-sjc
+     HostName hhh.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host iii-sjc
+     HostName iii.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host jjj-sjc
+     HostName jjj.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host aaa-sjc
+     HostName aaa.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host bbb-sjc
+     HostName bbb.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host ccc-sjc
+     HostName ccc.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host ddd-sjc
+     HostName ddd.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host eee-sjc
+     HostName eee.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host fff-sjc
+     HostName fff.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host ggg-sjc
+     HostName ggg.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host hhh-sjc
+     HostName hhh.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host iii-sjc
+     HostName iii.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops
+Host jjj-sjc
+     HostName jjj.sjc.foo.com
+     ServerAliveInterval 120
+     User svcops

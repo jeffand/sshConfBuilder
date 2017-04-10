@@ -2,4 +2,11 @@ Host {{ host }}-{{ datacenter }}
      HostName {{ fqdn_hostname }}
      ServerAliveInterval 120
      User svcops
-
+     Port 22
+     ProxyCommand ssh -q -W %h:%p violet
+     GSSAPIAuthentication no
+     Compression yes
+     CompressionLevel 9
+     ServerAliveInterval 60
+     ServerAliveCountMax 30
+     

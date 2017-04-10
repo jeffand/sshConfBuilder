@@ -17,7 +17,7 @@ except paramiko.SSHException:
 
 configdata = {}
 
-stdin,stdout,stderr = ssh.exec_command("ls /Users/jeffa/GitHub/sshconfbuilder/sjc.foo.com")
+stdin,stdout,stderr = ssh.exec_command("ls ~/GitHub/sshconfbuilder/sjc.foo.com")
 
 for line in stdout.readlines():
     print line.strip()
@@ -27,7 +27,7 @@ for line in stdout.readlines():
     print a
 ssh.close()
 
-#mypath = "/Users/jeffa/GitHub/sshconfbuilder/sjc.foo.com"
+#mypath = "~/GitHub/sshconfbuilder/sjc.foo.com"
 #nlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 #rint "ONLYFILES = "
 #rint onlyfiles

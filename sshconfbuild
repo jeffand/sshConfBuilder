@@ -4,6 +4,7 @@ import jinja2
 
 lsFolders = [
     '/Users/jeffa/GitHub/sshconfbuilder/sjc.foo.com',
+    '/Users/jeffa/GitHub/sshconfbuilder/sjc.foo.com',
     '/Users/jeffa/GitHub/sshconfbuilder/sjc.foo.com'
 ]
 
@@ -14,11 +15,13 @@ templateEnv = jinja2.Environment( loader=templateLoader )
 TEMPLATE_FILE = "/Users/jeffa/GitHub/sshconfbuilder/sshConfigFile"
 template = templateEnv.get_template( TEMPLATE_FILE )
 
-sshProcess = os.popen('ls /Users/jeffa/GitHub/sshconfbuilder/sjc.foo.com')
-lsOutput = sshProcess.read().strip().split()
-sshProcess.close()
-for fqdn_hostname in lsOutput:
-    templateVars['fqdn_hostname'] = fqdn_hostname
-    templateVars['host'], templateVars['datacenter'] = fqdn_hostname.split('.')[:2]
-    outputText = template.render( templateVars )
-    print outputText
+for folder in lsFolders:
+    targetFolder = 'ls ' + folder
+    sshProcess = os.popen( targetFolder )
+    lsOutput = sshProcess.read().strip().split()
+    sshProcess.close()
+    for fqdn_hostname in lsOutput:
+        templateVars['fqdn_hostname'] = fqdn_hostname
+        templateVars['host'], templateVars['datacenter'] = fqdn_hostname.split('.')[:2]
+        outputText = template.render( templateVars )
+        print outputText
